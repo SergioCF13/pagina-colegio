@@ -1,0 +1,113 @@
+/* Estilos generales de la página - Colegio Padre Luis Variara */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 30px;
+}
+
+/* Título principal */
+h1 {
+    color: white;
+    background-color: #1565c0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Subtítulos */
+h2, h3, h4 {
+    color: #1565c0;
+    border-bottom: 2px solid #1565c0;
+    padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
+/* Listas ordenadas y desordenadas */
+ul, ol {
+    background-color: #e3f2fd;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+/* Elementos de las listas */
+li {
+    margin: 8px;
+    font-size: 16px;
+}
+
+/* Lista de definiciones */
+dl {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+dt {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 15px;
+}
+
+/* Hiperenlaces */
+a {
+    display: inline-block;
+    background-color: #1565c0;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Efecto al pasar el mouse */
+a:hover {
+    background-color: #0d47a1;
+    color: yellow;
+}
+
+/* Imágenes */
+img {
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 15px;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1565c0;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #1565c0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1565c0;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e3f2fd;
+}
